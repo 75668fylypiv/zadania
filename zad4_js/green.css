@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #1e2f1e, #2e8b57);
+    color: #222;
+
+}
+
+
+.header {
+    text-align: center;
+    padding: 40px 20px;
+    color: white;
+}
+
+
+
+.subtitle {
+    opacity: 0.9;
+    font-size: 15px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 25px;
+}
+
+.top {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.photo {
+    width: 130px;
+    border-radius: 50%;
+    border: 4px solid #2e8b57;
+
+}
+
+.card {
+    background: #f9fff9;
+    padding: 25px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    border: 2px solid #2e8b57;
+    transition: transform 0.2s;
+
+}
+
+.card:hover {
+    transform: scale(1.03);
+
+}
+
+h2 {
+    margin-top: 0;
+    color: #2e8b57;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    list-style: none;
+    padding: 0;
+}
+
+.skills li {
+    background: #2e8b57;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 25px;
+    font-size: 15px;
+}
+
+a {
+    color: #2e8b57;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-size: 15px;
+
+}
+
+
+
+
