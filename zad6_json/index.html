@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volodymyr Fylypiv - CV</title>
+
+    <link id="theme-style" rel="stylesheet" href="green.css">
+</head>
+
+<body>
+
+<header class="header">
+    <h1>Volodymyr Fylypiv</h1>
+    <p class="subtitle">Student Informatyki • Future Developer</p>
+    <div class="buttons">
+    <button id="themeBtn" onclick="changeTheme()">Zmień motyw</button>
+    <button onclick="toggleProjects()">Ukryj/Pokaż projekty</button>
+    
+</div>
+</header>
+
+<main class="container">
+    
+    <div class="top">
+        <img src="myphoto.jpg" alt="zdjęcie" class="photo">
+
+        <section class="card">
+            <h2>Kontakt</h2>
+            <p>Email: <a href="mailto:volodya280708@gmail.com">volodya280708@gmail.com</a></p>
+
+            <p>Telefon: <a href="tel:+488881255197">+48 881 255 197</a></p>
+
+            <p>Warszawa</p>
+
+            <p>
+                <a href="https://github.com/75668fylypiv" target="_blank" rel="noopener noreferrer">GitHub</a> |
+                <a href="https://www.linkedin.com/in/volodymyr-fylypiv-9313aa3b9/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </p>
+        </section>
+    </div>
+
+    <section class="card">
+        <h2>O mnie</h2>
+        <p>
+            Student informatyki skupiony na rozwoju w kierunku web developmentu i baz danych.
+            Tworzę własne projekty i stale rozwijam swoje umiejętności techniczne.
+        </p>
+    </section>
+
+    <section class="card">
+        <h2>Umiejętności</h2>
+        <ul class="skills" id="skillsList"></ul>
+    </section>
+
+    <section class="card">
+        <h2>Doświadczenie</h2>
+
+
+        <article>
+            <h3>Projekty własne</h3>
+            <p>2025–2026</p>
+            <p>Tworzenie stron internetowych i nauka technologii frontendowych.</p>
+        </article>
+
+
+
+        <article>
+            <h3>Pomoc techniczna</h3>
+            <p>2023–2024</p>
+            <p>Rozwiązywanie problemów komputerowych i konfiguracja systemów.</p>
+        </article>
+
+    </section>
+
+    <section class="card">
+        <h2>Edukacja</h2>
+
+        <p>Vistula University – Computer Science (2025–obecnie)</p>
+    </section>
+
+
+    <section class="card" id="projects">
+        <h2>Projekty</h2>
+        <ul id="projectsList"></ul>
+    </section>
+
+</main>
+
+<footer>
+    <section class="card">
+    <h2>Formularz kontaktowy</h2>
+
+    <form id="contactForm">
+
+        <input type="text" id="name" placeholder="Imię">
+        <p class="error" id="nameError"></p>
+
+        <input type="text" id="surname" placeholder="Nazwisko">
+        <p class="error" id="surnameError"></p>
+
+        <input type="text" id="email" placeholder="Email">
+        <p class="error" id="emailError"></p>
+
+        <textarea id="message" placeholder="Wiadomość"></textarea>
+        <p class="error" id="messageError"></p>
+
+        <button type="submit">Wyślij</button>
+
+    </form>
+</section>
+    <p>2026 Volodymyr Fylypiv 75668</p>
+
+</footer>
+<script src="script.js"></script>
+</body>
+
+</html>
+
+ 
