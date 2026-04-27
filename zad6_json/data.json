@@ -1,0 +1,14 @@
+{
+  "skills": [
+    "HTML & CSS",
+    "JavaScript",
+    "C#",
+    "SQL",
+    "Python"
+  ],
+  "projects": [
+    "Strona CV",
+    "Gra Snake w Pythonie",
+    "Kalkulator (aplikacja konsolowa)"
+  ]
+}
